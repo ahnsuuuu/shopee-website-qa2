@@ -1,0 +1,290 @@
+/* Website behavior and design here */
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.test{
+text-align: center;
+position: relative;
+margin-bottom: 100px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+.MediaLogos {
+  width: 17px;
+  height: 17px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Main website code starts here */
+
+/* Main Header */
+.header {
+  background: linear-gradient(-180deg, #f53d2d, #f63);
+  height: 130px;
+  width: 100%;
+  position: fixed;
+  top: 0; 
+  color: #ffffff;
+  padding-top: 10px;
+  z-index: 999;
+}
+
+.ShopeeContainer {
+  max-width: 1200px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+/* Top left Shopee Options */
+.ShopeeHeaderLeft {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.TopLeft {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem; 
+}
+
+.TopLeftOptions {
+  margin-right: 10px; 
+}
+
+
+/* Top Right Shopee Options */
+.ShopeeHeaderRight {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.TopLeftOptions {
+  margin-right: 10px; 
+}
+
+
+/* Shopee Icons and Search Bar */
+.Shopee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.shopee-logo img {
+  width: 150px;
+  margin-right: 70px;
+}
+
+/* Search Bar */
+.ShopeeSearchBar {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.SearchBar {
+  flex: 1;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.category {
+  margin: 20px 0;
+  color: white;
+  margin-top: -30px;
+  font-size:71%;
+  padding-top: 2%;
+  margin-bottom: 0 auto;
+  padding-left: 25.5%;
+} 
+
+.SearchIcon {
+  margin-left: 10px;
+}
+
+/* Shopee Cart */
+.ShopeeCart {
+  margin-left: 10px;
+}
+
+.shopping-cart {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+/* Selection Texts */
+.Selection {
+  margin: 20px 0;
+  color: black;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.SelectionCategory {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+/* Image Container */
+.ImageContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px; 
+}
+
+.ChristmasImage, .RightImage {
+    border-collapse: collapse;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.RightImage{
+  padding-left: 4px;
+}
+
+.Images {
+    padding-left:265px;
+    padding-right:265px;
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: white;
+}
+
+/* Shop Categories */
+.ShopCategory {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.shops {
+  margin-right:15px;
+  margin-top: 15px;
+  text-align: center;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+/* Categories */
+.category-box {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding-left: -100px;
+}
+
+.category-text {
+  padding-left: -122px;
+  padding-top: 50px;
+  font-size: 16px;
+  color: #575757;
+  font-weight: bold;
+}
+
+.category-container1,
+.category-container2,
+.flash-container {
+  display: flex;
+}
+
+.category-icon {
+  border: solid;
+  border-color: white;
+  border-radius: 1px;
+  margin-right:0px;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.category-icon2 {
+  margin-right:0px;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Flash Sale */
+.flash-deal-box {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.flash-logo {
+  padding: 20px;
+}
+
+.flash-item {
+  margin-right:0px;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.flash-item p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.progress-bar {
+  width: calc(100% - 20px);
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.progress {
+  height: 100%;
+  width: 30%; 
+  background-color: #EE4D2D;
+  border-radius: 5px;
+}
